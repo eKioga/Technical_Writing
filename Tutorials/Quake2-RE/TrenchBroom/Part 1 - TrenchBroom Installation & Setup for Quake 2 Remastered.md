@@ -90,8 +90,8 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 
 1. Navigate to your Quake 2 Steam installation folder (found in Section 2).
 
-2. Open the "rerelease" folder.
-	**Note**: *Pin this folder to quick access to easily find it again. You will need it in later steps.*
+2. Open the "rerelease" folder.  
+**Note**: *Pin this folder to quick access to easily find it again. You will need it in later steps.*
 
 3. Open the "fgd" folder.
 
@@ -123,16 +123,22 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 		</p>
 
 10. Within the GameConfig.cfg text file, locate the line shown below.
-		`"name": "Quake 2",`
-		Replace it with:
-		`"name": "Quake 2-RE",`
-		So that it looks like:
-		<p align="left">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642421530.jpeg?raw=true" 			
-		alt="Replace 'Quake 2' with 'Quake 2-RE'">
-		</p>
+  
+	```"name": "Quake 2",```
+  
+	Replace it with:
+  
+	```
+	"name": "Quake 2-RE",
+ 	```
+  
+	So that it looks like:  
+ 	<p align="left">
+  	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642421530.jpeg?raw=true" 			
+	alt="Replace 'Quake 2' with 'Quake 2-RE'">
+	</p>
 
-11. After the edit, save and close the GameConfig.cfg text file.
+12. After the edit, save and close the GameConfig.cfg text file.
 
 13. Copy the Quake 2 icon file over to the Quake2RE folder by performing the following steps:  
 &emsp;&emsp;1. Navigate to "TrenchBroom\\games\\Quake2"  
@@ -204,7 +210,7 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 		alt="Map format should always be 'Quake 2 (Valve)''">
 		</p>
 
-9. The TrenchBroom editor should now be open. To confirm that it's setup with Quake 2 Remastered, we'll need to see if we can find its entities. We can do this by performing the following steps:  
+10. The TrenchBroom editor should now be open. To confirm that it's setup with Quake 2 Remastered, we'll need to see if we can find its entities. We can do this by performing the following steps:  
 &emsp;&emsp;1. Click on the "Entity" tab within the panel near the right side.  
 &emsp;&emsp;2. If you can see 3D models populating the Entity browser, then you're ready to move onto Section 5.
 	<p align="left">
@@ -219,7 +225,7 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 	- Located at https://github.com/ericwa/ericw-tools/releases or by clicking [here](https://github.com/ericwa/ericw-tools/releases).
 
 2. Find the latest version post (usually at the top) and scroll down to the **Assets** section. You'll find the ericw-tools download links there.  
-&emsp;&emsp;**Note**: *If you can't find it, locate the download links at the bottom of the latest release post and try expanding the list by clicking the word "Assets". GitHub can hide this section by default.
+**Note**: *If you can't find it, locate the download links at the bottom of the latest release post and try expanding the list by clicking the word "Assets". GitHub can hide this section by default.
 
 3. Click "ericw-tools-vXXXX-win64.zip" to begin downloading.  
 &emsp;&emsp;Example GitHub download link for Windows 64bit:
@@ -241,9 +247,9 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 6. Within the Compile window, perform the following steps:  
 &emsp;&emsp;1. Locate the Profile section on the left side and click the **+** button near the bottom left to create a new profile.  
 &emsp;&emsp;2. Input the following "Name" and "Working Directory" text for the new profile.  
-&emsp;&emsp;- **Name**: `Quake 2 RE (fast)`  
-&emsp;&emsp;- **Working Directory**: `${MAP_DIR_PATH}`  
-**Note**: *This profile will have the (fast) label because it will be your quick compile option. Lower quality lighting but much faster to compile maps for testing.*  
+&emsp;&emsp;&emsp;- **Name**: ```Quake 2 RE (fast)```  
+&emsp;&emsp;&emsp;- **Working Directory**: ```${MAP_DIR_PATH}```  
+&emsp;**Note**: *This profile will have the (fast) label because it will be your quick compile option. Lower quality lighting but much faster to compile maps for testing.*  
 		<p align="left">
   		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644060493.jpeg?raw=true" 			
 		alt="Quake 2 (lite) compile profile">
@@ -262,29 +268,56 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 	</p>
 
 9. Populate the "Tool Path" and "Parameter" text boxes for each "Run Tool" entry by performing the following steps:
-&emsp;&emsp;**Note**: *To input the correct "Tool Path" for your system, you will need to know where you extracted ericw-tools* back in Step 4.  
+  
+&emsp;&emsp;**Note**: *To input the correct "Tool Path" for your system, you will need to know where you extracted ericw-tools* back in Step 4.
+  
 &emsp;&emsp;1. Run Tool #1  
-&emsp;&emsp;&emsp;**Tool Path**: `ericw-tools-win64/bin/qbsp.exe`  
-&emsp;&emsp;&emsp;**Parameters**: `-nostat -nopercent -q2bsp ${MAP_BASE_NAME}`  
+  
+&emsp;&emsp;&emsp;**Tool Path**:
+  
+&emsp;&emsp;```ericw-tools-win64/bin/qbsp.exe```  
+  
+&emsp;&emsp;&emsp;**Parameters**: 
+  
+```
+-nostat -nopercent -q2bsp ${MAP_BASE_NAME}
+```  
 &emsp;&emsp;2. Run Tool #2  
-&emsp;&emsp;&emsp;**Tool Path**: `ericw-tools-win64/bin/vis.exe`  
-&emsp;&emsp;&emsp;**Parameters**: `${MAP_BASE_NAME}`  
+  
+&emsp;&emsp;&emsp;**Tool Path**: 
+  
+&emsp;&emsp;```ericw-tools-win64/bin/vis.exe```  
+  
+&emsp;&emsp;&emsp;**Parameters**: 
+  
+```
+${MAP_BASE_NAME}
+```  
 &emsp;&emsp;3. Run Tool #3  
-&emsp;&emsp;&emsp;**Tool Path**: `ericw-tools-win64/bin/light.exe`  
-&emsp;&emsp;&emsp;**Parameters**: `-nostat -dirt -world_units_per_luxel 24 -wrnormals -novanilla -lightgrid -lightgrid_dist 64 64 64 ${MAP_BASE_NAME}`  
-	<p align="left">
-	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644731979.jpeg?raw=true" 
-	alt="Three Run Tool entries fully configured.">
-	</p>
+  
+&emsp;&emsp;&emsp;**Tool Path**: 
+  
+&emsp;&emsp;```ericw-tools-win64/bin/light.exe```  
+  
+&emsp;&emsp;&emsp;**Parameters**: 
+  
+```
+-nostat -dirt -world_units_per_luxel 24 -wrnormals -novanilla -lightgrid -lightgrid_dist 64 64 64 ${MAP_BASE_NAME}
+```  
+<p align="left">
+<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644731979.jpeg?raw=true" 
+alt="Three Run Tool entries fully configured.">
+</p>
 
 10. Next we'll create our **Full** lighting compile option. Perform the following steps:  
-&emsp;&emsp;1. Right-click on the "Quake 2 RE (fast)" profile near the upper left, then click on the "Duplicate" option.  
+&emsp;1. Right-click on the "Quake 2 RE (fast)" profile near the upper left, then click on the "Duplicate" option.  
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644783122.jpeg?raw=true" 
 	alt="How to duplicate a profile">
 	</p>
 
 &emsp;&emsp;&emsp;2. Replace the word "fast" in "Quake 2 RE (fast)" with the word "full". So that it says Quake 2 RE (Full).  
+  
 &emsp;**Note**: *This profile will have the (full) label because it will be your slow compile option. Higher quality lighting but slower to compile maps. Best to use when finalizing the lighting or as your last compile before releasing the map itself.*  
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644831683.jpeg?raw=true" 
@@ -292,7 +325,11 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 	</p>
 &emsp;&emsp;3. Within the "Quake 2 RE (full)"" profile, update the parameters on Run Tool #3 using the line below. Do not update Run Tool #1 and #2.    
     
-&emsp;&emsp;&emsp;Run Tool #3 Parameters: `-emissivequality high -nostat -dirt -extra4 -world_units_per_luxel 8 -wrnormals -novanilla -lightgrid -lightgrid_dist 32 32 32 ${MAP_BASE_NAME}`
+&emsp;&emsp;&emsp;Run Tool #3 Parameters: 
+
+```
+-emissivequality high -nostat -dirt -extra4 -world_units_per_luxel 8 -wrnormals -novanilla -lightgrid -lightgrid_dist 32 32 32 ${MAP_BASE_NAME}
+```
 
 11. To launch Quake 2 Remastered directly from TrenchBroom, you'll need to configure configure the launch parameters. Perform the following steps:  
 &emsp;&emsp;1. Within the Compile window, click on the "Launch..." button at the bottom.  
@@ -302,11 +339,19 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
     		</p>
 &emsp;&emsp;2. This opens the "Launch Engine" window. Choose whether you wish to create single player or multiplayer maps, then input the the respective parameter:
    
-&emsp;&emsp;&emsp;1. For Single Player maps:  
-&emsp;&emsp;&emsp;&emsp;Parameters: `-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1`  
-   
-&emsp;&emsp;&emsp;2. For Multiplayer maps:  
-&emsp;&emsp;&emsp;&emsp;Parameters: `-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1`  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
+  
+```
+-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1
+```  
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Or  
+  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters For Multiplayer maps:  
+  
+```
+-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
+```  
 
 <p align="left">
 <img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644892683.jpeg?raw=true" 
