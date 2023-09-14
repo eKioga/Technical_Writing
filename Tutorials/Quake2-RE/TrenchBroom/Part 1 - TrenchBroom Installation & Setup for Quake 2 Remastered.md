@@ -62,17 +62,21 @@ We'll need to copy some files starting in Section 3. First, locate your Quake 2 
 
 2. Click "Properties..."
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694641844649.jpeg?raw=true" 			alt="Quake 2 Steam Properties">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694641844649.jpeg?raw=true" 			
+		alt="Quake 2 Steam Properties">
 		</p>
 
 3. Within the Properties menu, click on the "Installed Files" tab near the left side.
 
 4. Then click on the "Browse..." button on the right side to open the Quake 2 installation folder.
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694641921508.jpeg?raw=true" 			alt="Browse Steam Quake 2 Files">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694641921508.jpeg?raw=true" 			
+		alt="Browse Steam Quake 2 Files">
 		</p>
-5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.!		<p align="center">
-		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642018602.jpeg?raw=true" 			alt="Click on folder icon to reveal Quake 2 file path.">
+5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.
+		<p align="center">
+		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642018602.jpeg?raw=true" 	
+		alt="Click on folder icon to reveal Quake 2 file path.">
 		</p>
 
 	<p align="center">
@@ -113,7 +117,8 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 	1. Select **Notepad**
 	2. Click the "Always" button.
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642395691.jpeg?raw=true" 			alt="Choose Notepad, then click always">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642395691.jpeg?raw=true" 			
+		alt="Choose Notepad, then click always">
 		</p>
 
 10. Within the GameConfig.cfg text file, locate the line shown below.
@@ -122,7 +127,8 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 		`"name": "Quake 2-RE",`
 		So that it looks like:
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642421530.jpeg?raw=true" 			alt="Replace 'Quake 2' with 'Quake 2-RE'">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642421530.jpeg?raw=true" 			
+		alt="Replace 'Quake 2' with 'Quake 2-RE'">
 		</p>
 
 11. After the edit, save and close the GameConfig.cfg text file.
@@ -142,7 +148,8 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 2. Locate TrenchBroom.exe and run it by double-clicking the file.
 		**Note**: *The ability to see file extensions may be turned off for your system. If so, simply double-click on the file that is labeled TrenchBroom to launch the application.*
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642504548.jpeg?raw=true" 			alt="Open Trenchbroom.exe">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642504548.jpeg?raw=true" 			
+		alt="Open Trenchbroom.exe">
 		</p>
 
 3. A "Welcome to TrenchBroom" window should appear, displaying two buttons: **New Map** and **Browse**.
@@ -192,7 +199,8 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 			**Note**: *You may need to choose "Quake 2 (Valve)" each time you create a new map.*
 	3. Click the **OK** button to launch the TrenchBroom editor.
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643859796.jpeg?raw=true" 			alt="Map format should always be 'Quake 2 (Valve)''">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643859796.jpeg?raw=true" 			
+		alt="Map format should always be 'Quake 2 (Valve)''">
 		</p>
 
 9. The TrenchBroom editor should now be open. To confirm that it's setup with Quake 2 Remastered, we'll need to see if we can find its entities. We can do this by performing the following steps:
@@ -215,7 +223,8 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 3. Click "ericw-tools-vXXXX-win64.zip" to begin downloading.
 		Example GitHub download link for Windows 64bit:
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643959036.jpeg?raw=true" 			alt="ericw-tools download link example">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643959036.jpeg?raw=true" 			
+		alt="ericw-tools download link example">
 		</p>
 
 4. Extract the ericw-tools zip file to any location on your PC and make a note of its file path.
@@ -224,7 +233,8 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 	1. Click the "Run" dropdown menu near the top.
 	2. Click on "Compile Map..."
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643980436.jpeg?raw=true" 			alt="click Run, then click Compile map">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643980436.jpeg?raw=true" 			
+		alt="click Run, then click Compile map">
 		</p>
 
 6. Within the Compile window, perform the following steps:
@@ -234,12 +244,14 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 		- **Name**: `Quake 2 RE (fast)`
 		- **Working Directory**: `${MAP_DIR_PATH}`
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644060493.jpeg?raw=true" 			alt="Quake 2 (lite) compile profile">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644060493.jpeg?raw=true" 			
+		alt="Quake 2 (lite) compile profile">
 		</p>
 
 7. Locate the "Details" section near the right side and click the + button near the bottom, then choose "Run Tool" from the dropdown menu.
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644101701.jpeg?raw=true" 			alt="Create Run Tool Entries">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644101701.jpeg?raw=true" 			
+		alt="Create Run Tool Entries">
 		</p>
 
 8. Repeat this step until you have 3 empty "Run Tool" entries listed within the "Quake 2 RE (fast)" profile you just created.
@@ -283,7 +295,8 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
 11. Finally, we'll configure the Launch parameters. This allows you to launch Quake 2 Remastered from TrenchBroom. The following steps will guide you through this process.
 	1. Within the Compile window, click on the "Launch..." button at the bottom.
 		<p align="center">
-  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644854810.jpeg?raw=true" 			alt="Launch button">
+  		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644854810.jpeg?raw=true" 			
+		alt="Launch button">
     		</p>
 	2. This opens the "Launch Engine" window. Choose whether you wish to create single player or multiplayer maps, then input the the respective parameter:
 		1. For Single Player maps:
