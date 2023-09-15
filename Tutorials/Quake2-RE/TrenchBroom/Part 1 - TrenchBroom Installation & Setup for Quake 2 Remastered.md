@@ -210,7 +210,7 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 		alt="Map format should always be 'Quake 2 (Valve)''">
 		</p>
 
-10. The TrenchBroom editor should now be open. To confirm that it's setup with Quake 2 Remastered, we'll need to see if we can find its entities. We can do this by performing the following steps:  
+10. The TrenchBroom editor should now be open. To confirm that it's set up with Quake 2 Remastered, we'll need to see if we can find its entities. We can do this by performing the following steps:  
 &emsp;&emsp;1. Click on the "Entity" tab within the panel near the right side.  
 &emsp;&emsp;2. If you can see 3D models populating the Entity browser, then you're ready to move onto Section 5.
 	<p align="left">
@@ -275,7 +275,7 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
   
 &emsp;&emsp;&emsp;**Tool Path**:
   
-&emsp;&emsp;```ericw-tools-win64/bin/qbsp.exe```  
+&emsp;&emsp;&emsp;```ericw-tools-win64/bin/qbsp.exe```  
   
 &emsp;&emsp;&emsp;**Parameters**: 
   
@@ -286,7 +286,7 @@ TrenchBroom is up and running with Quake 2 Remastered, but we're not done yet. N
   
 &emsp;&emsp;&emsp;**Tool Path**: 
   
-&emsp;&emsp;```ericw-tools-win64/bin/vis.exe```  
+&emsp;&emsp;&emsp;```ericw-tools-win64/bin/vis.exe```  
   
 &emsp;&emsp;&emsp;**Parameters**: 
   
@@ -316,7 +316,7 @@ alt="Three Run Tool entries fully configured.">
 	alt="How to duplicate a profile">
 	</p>
 
-&emsp;&emsp;&emsp;2. Replace the word "fast" in "Quake 2 RE (fast)" with the word "full". So that it says Quake 2 RE (Full).  
+&emsp;&emsp;&emsp;2. Replace the word "fast" in "Quake 2 RE (fast)" with the word "full". So that it displays Quake 2 RE (Full).  
   
 &emsp;**Note**: *This profile will have the (full) label because it will be your slow compile option. Higher quality lighting but slower to compile maps. Best to use when finalizing the lighting or as your last compile before releasing the map itself.*  
 	<p align="left">
@@ -331,7 +331,7 @@ alt="Three Run Tool entries fully configured.">
 -emissivequality high -nostat -dirt -extra4 -world_units_per_luxel 8 -wrnormals -novanilla -lightgrid -lightgrid_dist 32 32 32 ${MAP_BASE_NAME}
 ```
 
-11. To launch Quake 2 Remastered directly from TrenchBroom, you'll need to configure configure the launch parameters. Perform the following steps:  
+11. To launch Quake 2 Remastered directly from TrenchBroom, you'll need to configure the launch parameters. Perform the following steps:  
 &emsp;&emsp;1. Within the Compile window, click on the "Launch..." button at the bottom.  
 		<p align="left">
   		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644854810.jpeg?raw=true" 			
@@ -360,7 +360,7 @@ alt="Launch Engine Parameters">
 
 12. Close the "Launch Engine" and "Compile" windows.
 
-**TrenchBroom is now setup for making maps for Quake 2 Remastered. Congratulations!**
+**TrenchBroom is now set up for making maps for Quake 2 Remastered. Congratulations!**
 
 ## FAQ <a name = "faq"></a>
 - How can I enable dark mode?  
@@ -378,4 +378,4 @@ alt="Launch Engine Parameters">
 - PalmliX - Created the video series that informs this documentation.
 
 # Acknowledgments <a name = "acknowledgments"></a>
-- A huge thanks to both PalmliX and Grue. Both serve as a inspiration for me and the Quake 2 mapping community.
+- A huge thanks to both PalmliX and Grue. Both serve as an inspiration for me and the Quake 2 mapping community.
