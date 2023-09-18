@@ -376,6 +376,8 @@ alt="Launch Engine Parameters">
 # Authors <a name = "authors"></a>
 - Kioga - Initial writing, editing and annotated screenshots.
 - PalmliX - Created the video series that informs this documentation.
+- Paril - Provided compile commands and technical support
+- xaGe - Provided Trenchbroom Steam launch commands and technical support
 
 # Acknowledgments <a name = "acknowledgments"></a>
 - A huge thanks to both PalmliX and Grue. Both serve as an inspiration for me and the Quake 2 mapping community.
