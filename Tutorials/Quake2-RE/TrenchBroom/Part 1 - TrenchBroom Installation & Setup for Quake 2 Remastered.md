@@ -28,7 +28,7 @@ We'll need to install the TrenchBroom map editor, copy some files and then insta
 - **Microsoft Visual C++ Redistributable** for Visual Studio 2015, 2017 and 2019
 	- [x86 version](https://aka.ms/vs/16/release/vc_redist.x86.exe) for running 32-bit TrenchBroom
 	- [x64 version](https://aka.ms/vs/16/release/vc_redist.x64.exe) for running 64-bit TrenchBroom  
-	**Note**: *Not sure which one? Try the x64 version first.*
+	****: *Not sure which one? Try the x64 version first.*
 - **Steam version of Quake 2** - Purchased [here](https://store.steampowered.com/app/2320/Quake_II/)
 - **7zip** or **WinRAR** - Apps needed for decompressing the .7z file format -  [Get 7zip](https://www.7-zip.org/download.html) [Get WinRAR](https://www.win-rar.com/predownload.html?&L=0)
 
@@ -38,8 +38,8 @@ How to install TrenchBroom on a Windows PC, step by step.
 1. Navigate to the TrenchBroom GitHub release page.
 	- Located at https://github.com/TrenchBroom/TrenchBroom/releases or by clicking [here](https://github.com/TrenchBroom/TrenchBroom/releases).
 
-2. Find the latest version post (usually at the top) and scroll down to the **Assets** section. You'll find the TrenchBroom download links there.
-	**Note**: *If you can't find it, locate the download links at the bottom of the latest release post and try expanding the list by clicking the word "Assets". GitHub can hide this section by default.
+2. Find the latest version post (usually at the top) and scroll down to the **Assets** section. You'll find the TrenchBroom download links there.  
+	**Note**: If you can't find it, locate the download links at the bottom of the latest release post and try expanding the list by clicking the word "Assets". GitHub can hide this section by default.
 
 3. Click "TrenchBroom-Win64-vXXXX-Release.7z" to begin downloading the TrenchBroom application. (If you know you're running 32bit Windows, download the Win32 version instead.)
 		Example GitHub download link for Windows 64bit:
@@ -105,7 +105,7 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 
 7. Open the **Games** folder.
 
-9. Create a new folder and name it **Quake2RE**.
+9. Create a new folder and name it **Quake2RE**.  
 	**Note**: *This folder can have any name. We recommend Quake2RE for simplicity.*
 
 8. Paste all 4 files copied from Step 4 into this new folder.
@@ -152,7 +152,7 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 
 1. Open the TrenchBroom folder you created back in Section 1.
 
-2. Locate TrenchBroom.exe and run it by double-clicking the file.
+2. Locate TrenchBroom.exe and run it by double-clicking the file.  
 		**Note**: *The ability to see file extensions may be turned off for your system. If so, simply double-click on the file that is labeled TrenchBroom to launch the application.*
 		<p align="left">
   		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642504548.jpeg?raw=true" 			
