@@ -27,7 +27,7 @@ We'll need to install the TrenchBroom map editor, copy some files and then insta
 - **Windows Operating System**
 - **Microsoft Visual C++ Redistributable** for Visual Studio 2015, 2017 and 2019
 	- [x86 version](https://aka.ms/vs/16/release/vc_redist.x86.exe) for running 32-bit TrenchBroom
-	- [x64 version](https://aka.ms/vs/16/release/vc_redist.x64.exe) for running 64-bit TrenchBroom
+	- [x64 version](https://aka.ms/vs/16/release/vc_redist.x64.exe) for running 64-bit TrenchBroom  
 	**Note**: *Not sure which one? Try the x64 version first.*
 - **Steam version of Quake 2** - Purchased [here](https://store.steampowered.com/app/2320/Quake_II/)
 - **7zip** or **WinRAR** - Apps needed for decompressing the .7z file format -  [Get 7zip](https://www.7-zip.org/download.html) [Get WinRAR](https://www.win-rar.com/predownload.html?&L=0)
