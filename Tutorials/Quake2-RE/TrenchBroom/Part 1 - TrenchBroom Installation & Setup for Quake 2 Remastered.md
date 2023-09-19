@@ -22,14 +22,20 @@ The information in this guide is also presented in the initial 11 minutes of the
 ## Getting Started <a name = "getting_started"></a>
 
 We'll need to install the TrenchBroom map editor, copy some files and then install ericw-tools. The following steps will guide you through this process.
+
+**Note**: This installation guide covers both Steam and GOG versions of Quake 2 Remastered. 
+- Steam specific instructions are labeled as **->Steam**.
+- GOG specific instructions are labeled as **->GOG**.
 ## Prerequisites <a name = "prerequisites"></a>
 
 - **Windows Operating System**
 - **Microsoft Visual C++ Redistributable** for Visual Studio 2015, 2017 and 2019
 	- [x86 version](https://aka.ms/vs/16/release/vc_redist.x86.exe) for running 32-bit TrenchBroom
 	- [x64 version](https://aka.ms/vs/16/release/vc_redist.x64.exe) for running 64-bit TrenchBroom  
-	****: *Not sure which one? Try the x64 version first.*
-- **Steam version of Quake 2** - Purchased [here](https://store.steampowered.com/app/2320/Quake_II/)
+	**Note**: *Not sure which one? Try the x64 version first.*
+- **Quake 2 from Steam or GOG**
+	- **Steam version** - Purchased [here](https://store.steampowered.com/app/2320/Quake_II/)
+	- **GOG version** - Purchased [here](https://www.gog.com/en/game/quake_ii_quad_damage)
 - **7zip** or **WinRAR** - Apps needed for decompressing the .7z file format -  [Get 7zip](https://www.7-zip.org/download.html) [Get WinRAR](https://www.win-rar.com/predownload.html?&L=0)
 
 ## Section 1 - Installing TrenchBroom <a name = "section1"></a>
