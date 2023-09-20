@@ -123,7 +123,11 @@ We'll need to copy some files starting in Section 3. Locate your Quake 2 install
 
 
 ## Section 3 - Copying Quake 2 Files into TrenchBroom <a name = "section3"></a>
-We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\games\\Quake2RE", then make a minor modification to one of the copied files. The following steps will guide you through this process.
+We need to copy files to "TrenchBroom\\games\\Quake2RE", then make a minor modification to one of the copied files. The following steps will guide you through this process.
+
+[Skip to GOG steps](#gog_section3)
+#### -> **Steam**:
+*Copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\games\\Quake2RE"*
 
 1. Navigate to your Quake 2 Steam installation folder (found in Section 2).
 
@@ -138,20 +142,43 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 	alt="Copy files from Quake2/rerelase/fgd">
 	</p>
 
-5. Navigate to the TrenchBroom folder (created in Section 1).
+5. Move onto the **Paste** section below. 
+#### -> **GOG**: <a name = "gog_section3"></a>
+Download the "quake2-rerelease-dll" zip file from GitHub. Then extract the files from the fgd folder into TrenchBroom. The following steps will guide you through this process.
 
-7. Open the **Games** folder.
+1. Navigate to the "quake2-rerelease-dll" GitHub page.
+	- Located at https://github.com/id-Software/quake2-rerelease-dll/tree/main or by clicking [here](https://github.com/id-Software/quake2-rerelease-dll/tree/main).
+2. Click on the green "Code" button near the upper right. Then click on "Download Zip".
+	<p align="left">
+	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695158698170.jpeg?raw=true" 
+	alt="Download Git repo's zip file.">
+	</p>
+3. Open the downloaded "quake2-rerelease-dll-main.zip" file and perform the following steps:
+&emsp;&emsp;1. Open the quake2-rerelease-dll-main folder. 
+&emsp;&emsp;2. Open the fgd folder. 
+&emsp;&emsp;3. Copy the 4 files within.
+	<p align="left">
+  	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695159227395.jpeg?raw=true" 
+	alt="Copy all files in the fgd folder.">
+	</p>
 
-9. Create a new folder and name it **Quake2RE**.  
+#### Paste files into TrenchBroom
+Now that we have the 4 files copied onto our clipboard, we're now ready to paste them into TrenchBoom. The following steps will guide you through this process.
+
+1. Navigate to the TrenchBroom folder (created in Section 1).
+
+2. Open the **Games** folder.
+
+3. Create a new folder and name it **Quake2RE**.  
 	**Note**: *This folder can have any name. We recommend Quake2RE for simplicity.*
 
-8. Paste all 4 files copied from Step 4 into this new folder.
+4. Paste all 4 files copied from Step 4 into this new folder.
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642259914.jpeg?raw=true" 
 	alt="Paste files into TrenchBroom\games\Quake2RE">
 	</p>
 
-9. Inside the "TrenchBroom\games\Quake2RE" folder, open the "GameConfig.cfg" text file. If prompted to choose an application to open GameConfig.cfg, perform the following steps to open it in Notepad:  
+5. Inside the "TrenchBroom\games\Quake2RE" folder, open the "GameConfig.cfg" text file. If prompted to choose an application to open GameConfig.cfg, perform the following steps to open it in Notepad:  
 &emsp;&emsp;1. Select **Notepad**  
 &emsp;&emsp;2. Click the "Always" button.
 		<p align="left">
@@ -159,7 +186,7 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 		alt="Choose Notepad, then click always">
 		</p>
 
-10. Within the GameConfig.cfg text file, locate the line shown below.
+6. Within the GameConfig.cfg text file, locate the line shown below.
   
 	```"name": "Quake 2",```
   
@@ -175,9 +202,9 @@ We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\ga
 	alt="Replace 'Quake 2' with 'Quake 2-RE'">
 	</p>
 
-12. After the edit, save and close the GameConfig.cfg text file.
+7. After the edit, save and close the GameConfig.cfg text file.
 
-13. Copy the Quake 2 icon file over to the Quake2RE folder by performing the following steps:  
+8. Copy the Quake 2 icon file over to the Quake2RE folder by performing the following steps:  
 &emsp;&emsp;1. Navigate to "TrenchBroom\\games\\Quake2"  
 &emsp;&emsp;2. Copy "Icon.png"  
 &emsp;&emsp;3. Navigate to "TrenchBroom\\games\\Quake2RE"  
