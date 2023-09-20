@@ -112,18 +112,14 @@ We'll need to copy some files starting in Section 3. Locate your Quake 2 install
 	</p>
 
 5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.
-<p align="left">
-<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156122081.jpeg?raw=true" 
-alt="Locate Quake 2 Remastered folder using GOG Galaxy.">
-</p>
-<p align="left">
-<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156939084.jpeg?raw=true" 
-alt="Click folder icon to reveal folder path.">
-</p>
-<p align="left">
-<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695157145231.jpeg?raw=true" 
-alt="Copy the file path">
-</p>
+	<p align="left">
+	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156939084.jpeg?raw=true" 
+	alt="Click folder icon to reveal folder path.">
+	</p>
+	<p align="left">
+	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695157145231.jpeg?raw=true" 
+	alt="Copy the file path">
+	</p>
 
 
 ## Section 3 - Copying Quake 2 Files into TrenchBroom <a name = "section3"></a>
