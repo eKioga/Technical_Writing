@@ -404,12 +404,15 @@ alt="Three Run Tool entries fully configured.">
   		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644854810.jpeg?raw=true" 			
 		alt="Launch button">
     		</p>
-&emsp;&emsp;2. This opens the "Launch Engine" window. Choose whether you wish to create single player or multiplayer maps, then input the the respective parameter:
+&emsp;&emsp;2. This opens the "Launch Engine" window. Choose whether you wish to create single player or multiplayer maps, then input the the respective parameter:  
+
+[Skip to GOG steps](#gog_section2)
+#### -> **Steam**:
    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
   
 ```
--applaunch 2320 -skipmovies +bind f10 "quit" +map ${MAP_BASE_NAME} +set cheats 1
+-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1
 ```  
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Or  
@@ -417,8 +420,24 @@ alt="Three Run Tool entries fully configured.">
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters For Multiplayer maps:  
   
 ```
--applaunch 2320 -skipmovies +bind f10 "quit" +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
+-applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
 ```  
+
+#### -> **GOG**: <a name = "gog_section2"></a><a name = "gog_section2"></a>
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
+  
+```
+-skipmovies +bind f10 "quit" +map ${MAP_BASE_NAME} +set cheats 1
+```  
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Or  
+  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters For Multiplayer maps:  
+  
+```
+-skipmovies +bind f10 "quit" +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
+```
 
 <p align="left">
 <img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694644892683.jpeg?raw=true" 
