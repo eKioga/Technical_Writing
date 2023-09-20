@@ -410,7 +410,7 @@ alt="Three Run Tool entries fully configured.">
     		</p>
 &emsp;&emsp;2. This opens the "Launch Engine" window. Choose whether you wish to create single player or multiplayer maps, then input the the respective parameter:  
 
-[Skip to GOG steps](#gog_section2)
+[Skip to GOG steps](#gog_section5)
 #### -> **Steam**:
    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
@@ -427,7 +427,7 @@ alt="Three Run Tool entries fully configured.">
 -applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
 ```  
 
-#### -> **GOG**: <a name = "gog_section2"></a><a name = "gog_section5"></a>
+#### -> **GOG**: <a name = "gog_section5"></a><a name = "gog_section5"></a>
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
   
