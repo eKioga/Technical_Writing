@@ -153,7 +153,7 @@ Download the "quake2-rerelease-dll" zip file from GitHub. Then extract the files
 	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695158698170.jpeg?raw=true" 
 	alt="Download Git repo's zip file.">
 	</p>
-3. Open the downloaded "quake2-rerelease-dll-main.zip" file and perform the following steps:
+3. Open the downloaded "quake2-rerelease-dll-main.zip" file and perform the following steps:  
 &emsp;&emsp;1. Open the quake2-rerelease-dll-main folder. 
 &emsp;&emsp;2. Open the fgd folder. 
 &emsp;&emsp;3. Copy the 4 files within.
@@ -252,9 +252,12 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 7. Within the "Game Engines" window, perform the following steps:  
 &emsp;&emsp;1. Click on the **+** button to create a new profile.  
 &emsp;&emsp;2. In the "Name" text box, input "Quake 2-RE".  
-&emsp;&emsp;3. In the Path text box, input your system's file path to "Steam.exe".  
-&emsp;&emsp;**Note**: *If you do not know where where Steam.exe is, then try the default file path: C:\\Program Files (x86)\\Steam\\steam.exe*  
-&emsp;&emsp;4. Click the "Close" button.
+3. The contents "Path" textbox depends on whether your using Steam or GOG.  
+&emsp;&emsp;**->Steam**: Input your system's file path to "Steam.exe".  
+&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\Steam\\steam.exe*  
+&emsp;&emsp;**->GOG**: Input your system's file path to "quake2ex_gog.exe".  
+&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\GOG Galaxy\\Games\\Quake II Enhanced\\quake2ex_gog.exe*  
+&emsp;&emsp;4. Click the "Close" button.  
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643822350.jpeg?raw=true" 
 	alt="Create Quake 2 RE profile, then input you file path to steam.exe">
