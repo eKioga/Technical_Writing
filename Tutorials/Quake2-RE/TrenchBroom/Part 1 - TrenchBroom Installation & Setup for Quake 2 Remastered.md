@@ -57,8 +57,8 @@ How to install TrenchBroom on a Windows PC, step by step.
 4. Extract the contents of the downloaded .7z file to any folder on your system.
 	-> Not sure what this means? Perform the following steps:  
 &emsp;&emsp;1. Create a folder on your Desktop or in your Documents folder and name it "TrenchBroom".  
-&emsp;&emsp;2. Open the .7z file, select every file within, and drag them to the TrenchBroom folder you created. That's it! Your installation is now complete!  
-&emsp;&emsp;**Note**: *If you're unable to open the 7z file, it's possible you forgot to download 7zip or WinRAR (seen in the Prerequisite section above).* If you're not sure which, grab 7zip for simplicity sake.
+&emsp;&emsp;2. Open the .7z file, select every file within, and drag them to the TrenchBroom folder you created.  
+&emsp;**Note**: *If you're unable to open the 7z file, it's possible you forgot to download 7zip or WinRAR (seen in the Prerequisite section above).* If you're not sure which, grab 7zip for simplicity sake.
 
 ## Section 2 - Find your Quake 2 Steam folder location <a name = "section2"></a>
 We'll need to copy some files starting in Section 3. Locate your Quake 2 installation file path using the steps below. If you already know your Quake 2 installation file path, then skip to Section 3.
@@ -81,7 +81,7 @@ We'll need to copy some files starting in Section 3. Locate your Quake 2 install
   		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694641921508.jpeg?raw=true" 			
 		alt="Browse Steam Quake 2 Files">
 		</p>
-5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.
+5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in **Section 3**.
 		<p align="left">
 		<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642018602.jpeg?raw=true" 	
 		alt="Click on folder icon to reveal Quake 2 file path.">
@@ -111,7 +111,7 @@ We'll need to copy some files starting in Section 3. Locate your Quake 2 install
 	alt="Locate Quake 2 Remastered folder using GOG Galaxy.">
 	</p>
 
-5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.
+5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in **Section 3**.
 	<p align="left">
 	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156939084.jpeg?raw=true" 
 	alt="Click folder icon to reveal folder path.">
@@ -127,7 +127,7 @@ We need to copy files to "TrenchBroom\\games\\Quake2RE", then make a minor modif
 
 [Skip to GOG steps](#gog_section3)
 #### -> **Steam**:
-*Copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\games\\Quake2RE"*
+Copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\games\\Quake2RE". The following steps will guide you through this process:
 
 1. Navigate to your Quake 2 Steam installation folder (found in Section 2).
 
@@ -144,7 +144,7 @@ We need to copy files to "TrenchBroom\\games\\Quake2RE", then make a minor modif
 
 5. Move onto the **Paste** section below. 
 #### -> **GOG**: <a name = "gog_section3"></a>
-Download the "quake2-rerelease-dll" zip file from GitHub. Then extract the files from the fgd folder into TrenchBroom. The following steps will guide you through this process.
+Download the "quake2-rerelease-dll" zip file from GitHub. Then extract the files from the fgd folder into TrenchBroom. The following steps will guide you through this process:
 
 1. Navigate to the "quake2-rerelease-dll" GitHub page.
 	- Located at https://github.com/id-Software/quake2-rerelease-dll/tree/main or by clicking [here](https://github.com/id-Software/quake2-rerelease-dll/tree/main).
@@ -154,9 +154,9 @@ Download the "quake2-rerelease-dll" zip file from GitHub. Then extract the files
 	alt="Download Git repo's zip file.">
 	</p>
 3. Open the downloaded "quake2-rerelease-dll-main.zip" file and perform the following steps:  
-&emsp;&emsp;1. Open the quake2-rerelease-dll-main folder. 
-&emsp;&emsp;2. Open the fgd folder. 
-&emsp;&emsp;3. Copy the 4 files within.
+&emsp;&emsp;1. Open the quake2-rerelease-dll-main folder.  
+&emsp;&emsp;2. Open the fgd folder.  
+&emsp;&emsp;3. Copy the 4 files within.  
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695159227395.jpeg?raw=true" 
 	alt="Copy all files in the fgd folder.">
@@ -241,7 +241,8 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 
 6. Within the Preferences window, perform the following steps:  
 &emsp;&emsp;1. Select "Quake 2-RE" on the left side.  
-&emsp;&emsp;2. For Game Path, input the file path to your Quake 2 Steam rerelease folder. (Default: C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease)  
+&emsp;&emsp;2. For Game Path, input the file path to your Quake 2 Steam rerelease folder.  
+&emsp;&emsp;&emsp;- (Default: C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease)  
 &emsp;&emsp;**Note:** *If you pinned this rerelease folder back in Section 3 - Step 2, then click on that to go directly there. Copy the file path to this folder.*  
 &emsp;&emsp;3. Click the **Configure engines..** button.
 	<p align="left">
@@ -249,15 +250,18 @@ We'll need to tell TrenchBroom where it can find your Quake 2-RE files. The foll
 	alt="Update Game Path for Quake 2 RE and then click configure engines ">
 	</p>
 
-7. Within the "Game Engines" window, perform the following steps:  
+8. Within the "Game Engines" window, perform the following steps:  
 &emsp;&emsp;1. Click on the **+** button to create a new profile.  
 &emsp;&emsp;2. In the "Name" text box, input "Quake 2-RE".  
-3. The contents "Path" textbox depends on whether your using Steam or GOG.  
-&emsp;&emsp;**->Steam**: Input your system's file path to "Steam.exe".  
-&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\Steam\\steam.exe*  
-&emsp;&emsp;**->GOG**: Input your system's file path to "quake2ex_gog.exe".  
-&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\GOG Galaxy\\Games\\Quake II Enhanced\\quake2ex_gog.exe*  
-&emsp;&emsp;4. Click the "Close" button.  
+&emsp;&emsp;3. The contents "Path" textbox depends on whether your using **Steam** or **GOG**.  
+
+&emsp;&emsp;&emsp;&emsp;**->Steam**: Input your system's file path to "Steam.exe".  
+&emsp;&emsp;&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\Steam\\steam.exe*  
+
+&emsp;&emsp;&emsp;&emsp;**->GOG**: Input your system's file path to "quake2ex_gog.exe".  
+&emsp;&emsp;&emsp;&emsp;- Default Path: C:\\Program Files (x86)\\GOG Galaxy\\Games\\Quake II Enhanced\\quake2ex_gog.exe*  
+
+&emsp;&emsp;&emsp;&emsp;4. Click the "Close" button.  
 	<p align="left">
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694643822350.jpeg?raw=true" 
 	alt="Create Quake 2 RE profile, then input you file path to steam.exe">
@@ -423,7 +427,7 @@ alt="Three Run Tool entries fully configured.">
 -applaunch 2320 -skipmovies +bind f10 "quit" +game ${MODS[-1]} +map ${MAP_BASE_NAME} +set cheats 1 +set deathmatch 1
 ```  
 
-#### -> **GOG**: <a name = "gog_section2"></a><a name = "gog_section2"></a>
+#### -> **GOG**: <a name = "gog_section2"></a><a name = "gog_section5"></a>
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Parameters for Single Player maps:  
   
