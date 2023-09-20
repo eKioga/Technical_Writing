@@ -61,9 +61,10 @@ How to install TrenchBroom on a Windows PC, step by step.
 &emsp;&emsp;**Note**: *If you're unable to open the 7z file, it's possible you forgot to download 7zip or WinRAR (seen in the Prerequisite section above).* If you're not sure which, grab 7zip for simplicity sake.
 
 ## Section 2 - Find your Quake 2 Steam folder location <a name = "section2"></a>
-We'll need to copy some files starting in Section 3. First, locate your Quake 2 Steam installation file path using the steps below.
+We'll need to copy some files starting in Section 3. Locate your Quake 2 installation file path using the steps below. If you already know your Quake 2 installation file path, then skip to Section 3.
 
-**Note**: *If you already know your Quake 2 installation file path, then skip to Section 3.*
+[Skip to GOG steps](#gog_section2)
+#### -> **Steam**:
 
 1. Locate "Quake 2" in your steam library, then **right-click** on it to open its context menu.
 
@@ -90,6 +91,40 @@ We'll need to copy some files starting in Section 3. First, locate your Quake 2 
   	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20Trenchbroom%20Install-1694642066522.jpeg?raw=true" 
 	alt="copy quake 2 file path">
 	</p>
+
+#### -> **GOG**: <a name = "gog_section2"></a>
+
+1. Open GOG Galaxy.
+
+2. On the left side, click “Installed” under games.
+	<p align="left">
+	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695155576603.jpeg?raw=true" 
+	alt="Locate GOG installed section">
+	</p>
+
+4. To view the installation folder, perform the following steps:  
+&emsp;&emsp;1. Right click on Quake 2 logo  
+&emsp;&emsp;2. Go to Manage Installation  
+&emsp;&emsp;3. Click “Show Folder”  
+	<p align="left">
+	<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156122081.jpeg?raw=true" 
+	alt="Locate Quake 2 Remastered folder using GOG Galaxy.">
+	</p>
+
+5. Once the Quake 2 folder opens, click the folder icon on the left side of the address bar. This action will reveal the complete file path, which you should copy and store for use in Section 3.
+<p align="left">
+<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156122081.jpeg?raw=true" 
+alt="Locate Quake 2 Remastered folder using GOG Galaxy.">
+</p>
+<p align="left">
+<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695156939084.jpeg?raw=true" 
+alt="Click folder icon to reveal folder path.">
+</p>
+<p align="left">
+<img src="https://github.com/eKioga/Technical_Writing/blob/main/Tutorials/Quake2-RE/TrenchBroom/assets/part1/Part%201%20-%20TrenchBroom%20Install%20GitHub%20Release-1695157145231.jpeg?raw=true" 
+alt="Copy the file path">
+</p>
+
 
 ## Section 3 - Copying Quake 2 Files into TrenchBroom <a name = "section3"></a>
 We need to copy all the files from "Quake 2\\rerelease\\fgd" to "TrenchBroom\\games\\Quake2RE", then make a minor modification to one of the copied files. The following steps will guide you through this process.
