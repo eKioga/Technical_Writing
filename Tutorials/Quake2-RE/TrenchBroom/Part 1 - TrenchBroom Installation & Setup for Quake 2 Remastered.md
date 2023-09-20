@@ -17,7 +17,7 @@ After completing this guide, you will be ready to create Quake 2 Remastered maps
 
 ## Video Guide <a name = "video"></a>
 
-The information in this guide is also presented in the initial 11 minutes of the video below linked below.
+The information in this guide is also presented in the initial 11 minutes of the video linked below.
 [Quake 2 Remaster Mapping Tutorial - Part 1: Setup and first map](https://www.youtube.com/watch?v=jDyfpSgnjDc)
 ## Getting Started <a name = "getting_started"></a>
 
